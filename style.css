@@ -99,6 +99,20 @@ section::before {
     justify-content: center;
 }
 
+.contact::before {
+    content: 'Contact';
+}
+
+.contact-form {
+    border: 1px solid black;
+    padding: 64px 32px;
+    font-weight: 700;
+}
+
+.form-control {  
+    border-radius: 0;
+}
+
 #work-1 {
     grid-area: work-1;
 }
